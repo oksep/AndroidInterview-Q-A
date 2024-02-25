@@ -3,7 +3,7 @@ const navConf = require("./nav.js");
 module.exports = {
     description: 'The top Internet companies android interview questions and answers',
     dest: 'docs',
-    base: '/AndroidInterview-Q-A/',
+    base: '/',
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -32,7 +32,7 @@ module.exports = {
         },
     },
     themeConfig: {
-        repo: 'https://github.com/JackyAndroid/AndroidInterview-Q-A',
+        repo: 'https://github.com/oksep/AndroidInterview-Q-A',
         editLinks: true,
         docsDir: 'source',
         locales: {

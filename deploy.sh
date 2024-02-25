@@ -6,13 +6,11 @@ set -e
 # 生成静态文件
 yarn build
 
-# git init
-# git add -A
-# git commit -m 'deploy'
+cd docs
 
-# git push -f git@github.com:JackyAndroid/AndroidInterview-Q-A.git master:gh-pages
+echo 'android-interview.septenary.cn' > CNAME
 
-# cd -
+cd -
 
 # 发布主分支的内容
 git add -A
